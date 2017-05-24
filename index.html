@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Twitter</title>
+  <link type="text/css" rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css"/>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  <link type="text/css" rel="stylesheet" href="styles.css"/>
+  <link type="text/css" rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.css"/>
+</head>
+<body>
+<div class="header content">
+  <!--???????????-->
+  <div style="display: inline-block;">
+    <a href="#"><i class="fa fa-twitter"></i> Главная</a>
+    <a href="#">О нас</a>
+  </div>
+  <div class="pull-right">
+    <input class="input-search" id="input-search" type="search" placeholder="Поиск в Твиттере">
+    <label class="fa fa-search" for="input-search"></label>
+
+    <div class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown">Уже зарегистрированы? Войти
+        <span class="caret"></span></a>
+      <div class="dropdown-menu">
+        Уже зарегистрированы?
+        <form>
+          <input type="text" id="phone" name="phone" placeholder="Phone, email etc">
+          <input type="password" id="password" name="password" placeholder="Password">
+          <button type="button" class="btn btn-primary">Login</button>
+          <hr>
+          Не пользуетесь Твиттером?
+          <button type="button" class="btn btn-default">register</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron logo">
+  <img src="https://pbs.twimg.com/profile_banners/30023434/1438290247/1500x500">
+</div>
+
+<div class="container">
+  <div class="navigation col-md-offset-3">
+    <a class="active-link" href="#">Tweets</a>
+    <a href="#">Following</a>
+    <a href="#">Followers</a>
+    <a href="#">Likes</a>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="avatar">
+        <img src="https://pbs.twimg.com/profile_images/626860748539588608/eaBxM1R7_400x400.png">
+      </div>
+      <h1>
+        <a href="#">Gossip girl</a>
+        <i class="fa fa-check-circle"></i>
+      </h1>
+      <a href="#" class="link-with-@">@gossipgirl</a>
+
+      <p>Official Twitter account of the Gossip Girl series. Get updates on the cast and celebrity news! You know you
+        love me. XOXO</p>
+      <p><i class="fa fa-map-marker"></i> New York, NY </p>
+      <p><i class="fa fa-link"></i> <a href="http://gossipgirl.com">gossipgirl.com</a> </p>
+      <p><i class="fa fa-calendar"></i> Joined April 2009</p>
+      <br>
+      <div class="photos-videos">
+        <i class="fa fa-camera"></i>
+        <label> 2 000 Photos and videos </label><br>
+        <div class="col-sm-3 image">img</div><div class="col-sm-3 image">img</div><div class="col-sm-3 image">img</div>
+        <div class="col-sm-3 image">img</div><div class="col-sm-3 image">img</div><div class="col-sm-3 image">img</div>
+
+      </div>
+
+    </div>
+
+    <div class="col-sm-6">
+      <div class="tweet-wrapper">
+        <a href="#" class="active-link">Tweets</a>
+        <a href="#">Tweets & replies</a>
+        <a href="#">Media</a>
+      </div>
+        <div class="tweet">
+          <form>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname">
+
+            <label for="country">State</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+
+            <label for="gossip">Text</label>
+            <textarea type="text" id="gossip" name="gossip"></textarea>
+
+            <button type="button" class="btn btn-primary">Submit your gossip</button>
+          </form>
+        </div>
+
+        <div class="tweet">
+          <form>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname">
+
+            <label for="country">State</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+
+            <label for="gossip">Text</label>
+            <textarea type="text" id="gossip" name="gossip"></textarea>
+
+            <button type="button" class="btn btn-primary">Submit your gossip</button>
+          </form>
+        </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="new-in">
+        <h3>New to Twitter?</h3>
+        <p>Sign up now to get your own personalized timeline!</p>
+        <button type="button" class="btn btn-primary">Sign up</button>
+      </div>
+
+      <h3>Column 3</h3>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
